@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[])
 {
+	
     // 创建应用程序对象, 在一个Qt项目中实例对象有且仅有一个
     // 类的作用: 检测触发的事件, 进行事件循环并处理
     QApplication a(argc, argv);
