@@ -16,6 +16,27 @@ MainWindow::MainWindow(QWidget *parent)
 
     qDebug() << "int value：" << value;
     qDebug() << "string value：" << str;
+
+    // 创建 person 对象
+    Person p;
+    p.id = 250;
+    p.name = "张三丰";
+
+    // 用 QVariant 包装自定义类型（两种方法）
+#if 1
+    QVariant v;
+    v.setValue(p);
+#else
+    QVariant v = QVariant::fromValue(p);
+#endif
+
+    // 取出 v 对象中的数据
+    if (v.canConvert<Person>())
+    {
+        Person temp = v.value<Person>();
+
+        qDebug() << "id：" << temp.id << " name：" << temp.name;
+    }
 }
 
 MainWindow::~MainWindow()
@@ -32,7 +53,7 @@ QVariant MainWindow::dataPlus(QVariant a, QVariant b)
     {
         ret = QVariant(a.toInt() + b.toInt());
     }
-    else if(a.type() == QVariant::String && b.type() == QVariant::String)
+    else if (a.type() == QVariant::String && b.type() == QVariant::String)
     {
         ret.setValue(a.toString() + b.toString());
     }

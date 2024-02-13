@@ -7,6 +7,14 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+// 添加自定义类型
+struct Person
+{
+    int id;
+    QString name;
+};
+Q_DECLARE_METATYPE(Person)
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
