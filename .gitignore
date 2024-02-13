@@ -2,3 +2,6 @@ build-Coordinate-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
 build-Recycle-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 /build-HelloQt-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 /build-Debug-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
+/build-StringTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
+
+*pro.user
