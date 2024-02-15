@@ -8,5 +8,6 @@ build-QVariantTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
 /build-QDateTime-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 /build-SignalAndSlot-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 /build-MySignalAndSolt-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
+/build-TwoSignalAndSlot-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 
 *.user
