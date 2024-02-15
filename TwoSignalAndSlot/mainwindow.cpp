@@ -13,16 +13,18 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->hungryBtn, &QPushButton::clicked, this, &MainWindow::hungrySlot);
 
     // 使用 Qt4 的方式进行连接
-    connect(m_gril, SIGNAL(hungry()), m_me, SLOT(eat()));
+    // connect(m_gril, SIGNAL(hungry()), m_me, SLOT(eat()));
     // 处理重载的信号和函数
-    connect(m_gril, SIGNAL(hungry(QString)), m_me, SLOT(eat(QString)));
+    // connect(m_gril, SIGNAL(hungry(QString)), m_me, SLOT(eat(QString)));
 
 
     // 使用 Qt5 的方式处理重载的信号和函数------需要在外面自定义函数指针
     void (GrilFriend::*gril1)() = &GrilFriend::hungry;
     void (GrilFriend::*gril2)(QString) = &GrilFriend::hungry;
-    void (Me::*mypoint)(QString) = &Me::eat;
-    connect(m_gril, gril2, m_me, mypoint);
+    void (Me::*mypoint1)() = &Me::eat;
+    void (Me::*mypoint2)(QString) = &Me::eat;
+    // connect(m_gril, gril2, m_me, mypoint2);
+    connect(m_gril, gril2, m_me, mypoint1);         // 左大于右
 
 }
 
