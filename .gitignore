@@ -11,6 +11,7 @@ build-QVariantTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
 /build-TwoSignalAndSlot-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 build-QTimerTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
 /build-QTimerTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-WindowTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
+/build-QWidgetTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
+/build-QDialogTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
 
 *.user
