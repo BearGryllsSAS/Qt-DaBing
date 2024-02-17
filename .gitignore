@@ -1,17 +1,3 @@
-build-Coordinate-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
-build-Recycle-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-HelloQt-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-Debug-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-StringTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-QVariantTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-build-QVariantTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
-/build-QDateTime-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-SignalAndSlot-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-MySignalAndSolt-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-TwoSignalAndSlot-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-build-QTimerTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug/
-/build-QTimerTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-QWidgetTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
-/build-QDialogTest-Desktop_Qt_5_14_2_MinGW_32_bit-Debug
+/build*
 
 *.user
