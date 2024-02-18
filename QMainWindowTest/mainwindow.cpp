@@ -4,6 +4,8 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <QToolBar>
+#include <QLabel>
+#include <QTimer>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -37,6 +39,27 @@ MainWindow::MainWindow(QWidget *parent)
     // 通过代码添加第二个工具栏对象
     QToolBar* toolbar = new QToolBar("toolbar");
     this->addToolBar(Qt::LeftToolBarArea, toolbar);
+
+
+
+    // 添加状态栏子控件
+    // 按钮
+    ui->statusbar->showMessage("我是状态栏·······", 3000);
+    QPushButton* button = new QPushButton("按钮");
+    ui->statusbar->addWidget(button);
+    // 标签
+    QLabel* label = new QLabel("hello world");
+    ui->statusbar->addWidget(label);
+
+    // 直接在状态栏中打印文本信息（与以上的方式存在冲突）
+    // ui->statusbar->showMessage("我是状态栏·······");
+
+    // 在文本信息消失后再次显示按钮和标签（需要手动）
+    QTimer::singleShot(5000, this, [=]()
+    {
+        button->show();
+        label->show();
+    });
 }
 
 MainWindow::~MainWindow()
