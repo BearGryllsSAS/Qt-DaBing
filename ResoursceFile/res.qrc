@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="别名">img/_4ac72119-e2cb-4281-878d-e1d9a97e1b7e.jfif</file>
+        <file>img/_4c46af20-e80f-455f-8e3f-ce9dab012b17.jfif</file>
+        <file>img/_8c7059ef-a53d-493a-bc99-bb18cb495601.jfif</file>
+        <file>img/_58db6d80-f49c-466b-9622-f09a715bb45c.jfif</file>
+        <file>img/_62a81515-d988-405f-bb77-60c8b285ce74.jfif</file>
+        <file>img/_63d083bc-b7cf-4ebc-949a-8a25cefb8002.jfif</file>
+        <file>img/_265fe651-c46a-452e-8349-9401b5487c16.jfif</file>
+        <file>img/_a6b2e23a-a1b4-493f-aaa5-d8354386fbd0.jfif</file>
+        <file>img/_b9d20eaa-373c-4e0f-ba6e-82a871ce7a4e.jfif</file>
+        <file>img/_ce89ec4e-c52a-45f6-9244-426230137c60.jfif</file>
+        <file>img/_e34580f5-dbf4-4fbd-afce-9d75a5c06082.jfif</file>
+    </qresource>
+</RCC>
